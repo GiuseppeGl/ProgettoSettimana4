@@ -1,3 +1,14 @@
+body{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
 .container {
 
 
@@ -6,6 +17,8 @@
     
 }
 
+
+
 header {
 
     border-bottom: 1px solid black;
@@ -13,8 +26,12 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
+
+    transition: background-color 0.3s ease;
   
 }
+
+
 
 nav{
     padding-top: 15px;
@@ -64,6 +81,8 @@ nav{
     background-color: black;
     padding: 6px 12px;
     border-radius: 3em;
+
+    transition: background-color 0.5s; /*  provo js */
 }
 
 #reading {
@@ -102,6 +121,7 @@ h1 {
     margin-top: 50px;
     margin-bottom: 15px;
     font-size: 5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -233,9 +253,25 @@ article > div:first-child {
 /* ARTICOLI IN COLONNA  */
 
 
+.artEImg {
+    
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: flex-start; 
+    margin-left: -60px;
+    margin-bottom: 30px;
+}
+
+.imgArt2 {
+    order: -1; 
+    margin-right: 0; 
+}
+
+
+
 .container3 {
 
-    background: aqua;
+   
     height: 400px;
     width: 80%;
     margin: auto;
@@ -247,6 +283,122 @@ article > div:first-child {
     
     width: 60%;
     
+    
+    
+}
+
+.trendingArt2{
+
+    display: flex;
+    flex-wrap: wrap;
+  
+    
+    width: 60%;
+    
+    
+}
+
+
+.author2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+
+}
+
+.nameAuthor2 {
+
+    display: flex;
+   
+}
+
+.svg2 {
+
+    width: 18px;
+    border-radius: 50%;
+    margin-bottom: -5px;
+}
+
+.trendingArt2 .author2 .nameAuthor2 a {
+
+   text-decoration: none;
+}
+
+.name22 {
+
+
+    font-size: 0.8em;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 8px;
+   
+
+}
+
+.titleArt2 {
+
+    margin-top: 5px;
+    margin-bottom: 8px;
+    
+}
+
+.titleArt2 a{
+
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+
+}
+
+.minRead2 {
+
+    display: flex;
+    font-size: 0.7em;
+    opacity: 0.7;
+    align-items: center;
+}
+
+.minRead2 > div {
+
+    margin-left: 10px;
+}
+
+
+
+.imgArt2 img{
+
+    width: 150px;
+    
+}
+
+.star2 {
+
+    width: 1em;
+}
+
+.aging {
+
+        
+        background-color: rgba(113, 111, 111, 0.164);
+        padding: 6px 12px;
+        border-radius: 3em;
+        opacity: 0.8;
+    
+}
+
+
+.minRead2 .aging span {
+    
+    color: rgb(71, 68, 68);
+
+}
+
+
+.content2 {
+
+    font-size: 0.6em;
+    opacity: 0.6;
+    margin-bottom: 10px;
 }
 
 /* 
