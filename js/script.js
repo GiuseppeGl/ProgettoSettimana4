@@ -9,11 +9,11 @@
         header.style.backgroundColor = 'white';
         started.style.backgroundColor = 'green';
     } else {
-        header.style.backgroundColor = 'yellow';
+        header.style.backgroundColor = '#ffc017';
         started.style.backgroundColor = 'green';
     }
 }); 
 
  
-
+ 
 
