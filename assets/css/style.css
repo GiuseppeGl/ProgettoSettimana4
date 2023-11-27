@@ -10,6 +10,9 @@ header {
 
     border-bottom: 1px solid black;
     background-color: yellow;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   
 }
 
@@ -108,8 +111,152 @@ h2 {
     margin-bottom: 40px;
 }
 
-
+/* POST STAY CURIOUS */
 article {
 
     width: 80%;
     margin: auto;
+    
+    
+}
+
+article > div:first-child {
+
+   margin-top: 30px;
+   margin-bottom: 20px;
+   
+}
+
+
+#trMedium{
+    display: flex;
+    align-items: center;
+
+
+}
+
+#trMediumT{
+
+     width: 23px;
+     
+
+}
+
+#trMedium span {
+
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+#container2{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 200px;
+    
+}
+
+.trendingArt{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+}
+
+.number {
+
+    font-size: 1.5em;
+    color: #333;
+    opacity: 0.2;
+    margin-right: 18px;
+}
+
+/* ALLINEO IMG CON AUTORE  */
+
+.author {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.nameAuthor {
+
+    display: flex;
+   
+}
+
+.svg {
+
+    width: 18px;
+    border-radius: 50%;
+    margin-bottom: -5px;
+}
+
+.trendingArt .author .nameAuthor a {
+
+   text-decoration: none;
+}
+
+.name2 {
+
+
+    font-size: 0.8em;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 8px;
+   
+
+}
+
+.titleArt {
+
+    margin-bottom: 10px;
+}
+
+.titleArt a{
+
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.minRead {
+
+
+    font-size: 0.7em;
+    opacity: 0.7;
+}
+
+/* ARTICOLI IN COLONNA  */
+
+
+.container3 {
+
+    background: aqua;
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.container4 {
+    
+    width: 60%;
+    
+}
+
+/* 
+ARGOMENTI CHE TI PIACCIONO STICKY */
+
+
+.container5 {
+
+    width: 40%;
+    background: white;
+    
+    
+}
